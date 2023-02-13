@@ -44,6 +44,4 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 # git apply ../config-openwrt/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-wget https://github.com/vernesong/OpenClash/archive/master.zip
-unzip master.zip
-cp -r OpenClash-master/luci-app-openclash package
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
